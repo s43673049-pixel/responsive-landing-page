@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root {
+    --main-bg-color: #043873;
+    --bg-color: #ffffff;
+    --btn-color: #4F9CF9;
+} */
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-bg-color, #043873);
+  padding: 16px 220px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    align-self: left;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn {
+    align-content: right;
+    margin-right: 0;
+    padding-left: 20px;
+}
+
+#btn1 {
+    background-color: #FFE492;
+    color: #043873;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#btn2{
+    background-color: #4F9CF9;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 220px;
+    margin-top: 20px;
+}
+
+section img {
+    width: 400px;
+    height: auto;
+  
+  
+
+}
+section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    align-self: left;
+
+}
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+section button {
+    background-color: var(--btn-color, #4F9CF9);
+    width: 228px;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
