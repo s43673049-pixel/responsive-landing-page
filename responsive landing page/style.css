@@ -62,37 +62,55 @@ header {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 40px 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding: 100px 67px;
     margin-top: 20px;
 }
 
 section img {
-    width: 400px;
+    width: 657px;
     height: auto;
+    grid-column: 3;
+   grid-row: 1 / span 3;
   
   
 
 }
 section h1 {
-    font-size: 36px;
+    font-size: 45px;
     margin-bottom: 20px;
-    align-self: left;
+    grid-column: 1 / span 2;
+
 
 }
 section p {
     font-size: 18px;
     margin-bottom: 20px;
+    grid-column: 1 / span 2;
 }
+
 section button {
     background-color: var(--btn-color, #4F9CF9);
-    width: 228px;
+    width: 255px;
+    height: 58px;
     color: #ffffff;
     border: none;
     padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 18px;
+    grid-column: 1 / span 2;
+}
+
+.main-section {
+    background-color:#043873;
+    color: #ffffff;
+}
+.img3 {
+    width: 657px;
+    height: auto;
+    grid-column: 3;
+   grid-row: 1 / span 3;
 }
